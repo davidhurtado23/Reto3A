@@ -16,8 +16,6 @@ public class FraganceService {
     @Autowired
     private FraganceRepository fraganceRepository;
 
-    @Autowired
-    private MongoTemplate mongoTemplate;
 
     public List<Fragance> getAll() {
         return fraganceRepository.getAll();
